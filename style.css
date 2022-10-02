@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Red+Hat+Text:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Red Hat Text", sans-serif;
+    background-color: hsl(234, 17%, 12%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.container h1{
+    color:white;
+    font-size:24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2.5rem;
+}
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.stars{
+    position: absolute;
+}
+
+.hills{
+    position: absolute;
+    bottom: 0;
+}
+
+.socials{
+    position:absolute;
+    bottom:2rem;
+    z-index: 900;
+    left:50%;
+    transform:translateX(-50%)
+}
+
+.socials ul{
+    display: flex;
+}
+
+.socials ul li{
+    margin: 0 20px;
+}
+
+.countdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.countdown div{
+    margin: 10px;
+}
+
+.countdown h3{
+    color: hsl(237, 18%, 59%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 9px;
+    margin-top: 0.5rem;
+}
+
+.countdown p{
+    padding: 20px;
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 5px;
+    color: hsl(345, 95%, 68%);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
